@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.App {
+  text-align: center;
+  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp');
+  background-size: cover; /* תוודא שהתמונה תכסה את כל המסך */
+  background-position: center center; /* תמקם את התמונה במרכז */
+  background-attachment: fixed; /* תגרום שהתמונה תישאר ثابتת כאשר הגולל יורד */
+  min-height: 100vh; /* תוודא שהתמונה תכסה את כל גובה המסך */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
